@@ -1,0 +1,162 @@
+/* =============================
+GENERAL STYLES 
+================================ */
+
+body {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    font-size: 18px;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+  }
+  
+  .clearfix:after {
+    visibility: hidden;
+    display: block;
+    content: " ";
+    clear: both;
+    height: 0;
+    font-size: 0;
+  }
+  
+  /* =============================
+  TYPOGRAPHY
+  ================================ */
+  h1, h2 {
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+  
+  h2 {
+    color: #0D2C40;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  p {
+    font-family: "Droid Serif", serif;
+    line-height: 26px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: .06em;
+  
+    margin: 0 20px;
+    /* For hover style transition (bonus) */
+    border-bottom: 2px solid transparent;
+  /*   transition: all .3s ease-in-out; */
+  }
+  
+  a:hover {
+    border-bottom: 2px solid white;
+  }
+  /* =============================
+  HEADER
+  ================================ */
+  header {
+    background-color: #F15B31;
+    padding: 30px 20px;
+  }
+  
+  /* =============================
+  NAV
+  ================================ */
+  nav {
+    background-color: #00A6B3;
+    padding: 20px 0;
+  }
+  
+  /* =============================
+  MAIN SECTION
+  ================================ */
+  
+  main {
+    width: 850px;
+    margin: 35px auto;
+  }
+  
+  
+  /* =============================
+  GAME BOARD
+  ================================ */
+  img {
+    margin: 40px 8px 0;
+  }
+  
+  /* =============================
+  FOOTER
+  ================================ */
+  footer {
+    text-transform: uppercase;
+    padding: 0 20px;
+    background-color: #0D2C40;
+    color: white;
+    font-size: 14px;
+    letter-spacing: .08em;
+    font-weight: 500;
+  
+  }
+  
+  .copyright {
+    float: left;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .message {
+    float: right;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .name {
+    color: #F15B31;
+    font-weight: bold;
+  }
+  
+  #result-table{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: row;
+  }
+  
+  #result-msg{
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  table,th,td{
+      padding: 5px;
+      border: 1px solid black;
+  }
+  
+  #rows{
+    border: 1px solid;
+  }
+  
+  #button-div{
+    padding: 10px;
+  }
+  #button-div button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
